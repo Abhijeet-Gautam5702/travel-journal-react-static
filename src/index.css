@@ -104,6 +104,38 @@ header {
   text-align: justify;
 }
 
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #010409;
+    color: white;
+    padding:10px;
+}
+.footer--text{
+    /* border:2px solid white; */
+    font-size:0.8rem;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+}
+.contact-container:hover{
+    color: #86c2ff;
+}
+.footer--profile-name{
+    margin-left: 5px;;
+    font-size:1rem;
+}
+.footer--img{
+    width:30px;
+    height:auto;
+}
+
+
 @media (min-width: 425px) {
   .card {
     width: 60%;
