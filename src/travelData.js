@@ -1,15 +1,18 @@
-/*
-    <Card
-        location="India Gate"
-        country="India"
-        description="lorem ipsum dolor sit amor"
-        mapLink="https://google.com"
-        img=""
-        year="2021"
-    />
-*/
+
 
 export default [
+  {
+    location: {
+      country: "INDIA",
+      name: "Mussoorie",
+      mapLink:
+        "https://www.google.com/maps/place/Mussoorie,+Uttarakhand/@30.4548015,77.9411488,12z/data=!3m1!4b1!4m5!3m4!1s0x3908d0cfa61cda5b:0x197fd47d980e85b1!8m2!3d30.4597892!4d78.0643723",
+    },
+    description:
+      "Mussoorie is a hill station and a municipal board, near Dehradun city in the Dehradun district of the Indian state of Uttarakhand. It is about 35 kilometres (22 mi) from the state capital of Dehradun and 290 km (180 mi) north of the national capital of New Delhi. The hill station is in the foothills of the Garhwal Himalayan range. Mussoorie is at an average altitude of 2,005 metres (6,578 ft).",
+    img: "https://i.pinimg.com/474x/56/90/0e/56900e660be7dc11daa993459936d5e2.jpg",
+    year: "2022",
+  },
   {
     location: {
       country: "INDIA",
@@ -18,21 +21,9 @@ export default [
         "https://www.google.com/maps/search/Taj+Mahal/@27.1752105,77.9678235,12.81z",
     },
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur quasi, voluptatem saepe in rem adipisci laboriosam, accusantium laudantium impedit temporibus deserunt aspernatur! Corporis, omnis id? Eius tempore quaerat voluptates repudiandae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur quasi, voluptatem saepe in rem adipisci laboriosam!",
+      "The Taj Mahal is an Islamic ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1631 by the Mughal emperor Shah Jahan to house the tomb of his favourite wife, Mumtaz Mahal. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
     img: "https://i.pinimg.com/564x/ac/94/35/ac9435b1dae07a86462fa6fa691498c4.jpg",
     year: "2022",
-  },
-  {
-    location: {
-      country: "INDIA",
-      name: "India Gate",
-      mapLink:
-        "https://www.google.com/maps/place/India+Gate/@28.6129167,77.227321,17z/data=!3m1!4b1!4m5!3m4!1s0x390ce2daa9eb4d0b:0x717971125923e5d!8m2!3d28.612912!4d77.2295097",
-    },
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur quasi, voluptatem saepe in rem adipisci laboriosam, accusantium laudantium impedit temporibus deserunt aspernatur! Corporis, omnis id? Eius tempore quaerat voluptates repudiandae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur quasi, voluptatem saepe in rem adipisci laboriosam, accusantium laudantium ",
-    img: "https://i.pinimg.com/564x/d9/31/e4/d931e46254d1d51b4743b43be8aefec4.jpg",
-    year: "2021",
   },
   {
     location: {
